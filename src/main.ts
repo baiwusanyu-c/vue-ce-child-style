@@ -38,7 +38,7 @@ app.config.compilerOptions.isCustomElement = (tag) => {
 };*/
 
 import App from './scoped/my-component.vue'
-const app = createApp(App);
+//const app = createApp(App);
 
 const ceApp = defineCustomElement(App);
 customElements.define('vue-app', ceApp);

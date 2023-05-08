@@ -1,5 +1,8 @@
 <script>
+import InNestedCE from "./InNestedCE.vue";
+
 export default {
+    components: {InNestedCE},
     props: {
         isInCE: {
             type: Boolean,
@@ -27,6 +30,7 @@ export default {
         : 'This should also be blue (inherited)'
     "
     ></p>
+   <InNestedCE></InNestedCE>
 </template>
 <!-- This scoped style is more specific than the .my-red from the root -->
 <style scoped>
