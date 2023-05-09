@@ -1,4 +1,4 @@
-# this is a test project for vue pr #7942(https://github.com/vuejs/core/pull/7942)
+# this is a test project for vue's pr #7942(https://github.com/vuejs/core/pull/7942)
 1. download the repo and run `pnpm install`  at root
 2. run `dev`
 3. When `dev` finishes executing and open the address `localhost:5173`, you will find that there is a problem with the page, just as you described. Close the `dev` process at this time
